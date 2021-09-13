@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react'
 import styles from '../styles/Home.module.css'
 
-type Props = {
+interface Props {
     name: string,
     company: string,
     division: string
