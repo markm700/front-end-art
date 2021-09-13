@@ -1,5 +1,4 @@
 import { FunctionComponent } from 'react'
-import styles from '../styles/Home.module.css'
 
 interface Props {
     name: string,
@@ -10,7 +9,7 @@ interface Props {
 const Wrestler: FunctionComponent<Props> = ({name,company,division}) => {
     return(
         <div> 
-            <h1> {name} </h1>
+            <h2> {name} </h2>
             <p>Company: {company}</p>
             <p>Division: {division}</p>
         </div>
