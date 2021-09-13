@@ -17,7 +17,7 @@ const Show: FunctionComponent<Props> = ({name,titles,rosterSize,imagePath}) => {
              </h1>
             <p>Titles:</p>
             <ul> {titles.map(title => (
-                <li>{title}</li>
+                <li key={title}>{title}</li>
             ))}
             </ul>
             <p>Roster Size: {rosterSize}</p>
