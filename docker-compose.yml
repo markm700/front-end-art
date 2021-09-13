@@ -4,10 +4,10 @@ services:
     build:
       context: .
       target: ${MY_ENV}
-    image: my-node-app:${MY_ENV}
+    image: my-next-app:${MY_ENV}
     ports:
       - "8000:${MY_PORT}"
     volumes:
-      - ./src:/app/src
+      - ./pages:/app/src
     environment:
       PORT: ${MY_PORT}
