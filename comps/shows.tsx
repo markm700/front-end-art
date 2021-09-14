@@ -1,5 +1,6 @@
 import { FunctionComponent } from 'react'
 import Wrestler from '../comps/wrestler'
+import styles from '../styles/Home.module.css'
 
 interface Props {
     name: string,
@@ -10,7 +11,7 @@ interface Props {
 
 const Show: FunctionComponent<Props> = ({name,titles,rosterSize,imagePath}) => {
     return(
-        <div> 
+        <div className={styles.main}> 
             <h1> 
                <img src={imagePath} />
               {name} 
