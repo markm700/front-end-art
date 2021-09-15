@@ -7,6 +7,7 @@
   align-items: center;
   height: 100%;
   width: 50%;
+  border: solid;
 }
 
 .containerleft {
@@ -20,14 +21,6 @@
   border-style: solid;
 }
 
-.imgleft{
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  height: 100%;
-  object-fit: fill;
-}
-
 .containerright {
   min-height: 100vh;
   padding: 0 0;
@@ -39,16 +32,8 @@
   border-style: solid;
 }
 
-.imgright{
-  display: flex;
-  flex-direction: column;
-  align-items: right;
-  height: 100%;
-}
-
 .main {
   padding: 5rem 5rem;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
